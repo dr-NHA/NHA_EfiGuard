@@ -1,8 +1,8 @@
 # Info
 > This Is A Edit/Mod Of EFI Guard A Popular DSE Bypass,
-> 
+:
 > This Isnt Intended On Being Undetectable, 
-> 
+: 
 > This Is More Just For Ease Of Use And For Learning A Bit More C++ Stuff!
 
 # Build
