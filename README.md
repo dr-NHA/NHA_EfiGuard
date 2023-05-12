@@ -5,6 +5,56 @@
 
 > This Is More Just For Ease Of Use And For Learning A Bit More C++ Stuff!
 
+# Setup/Install
+The UI .Exe Contains An Auto Setup/Install Feature,
+This Is The Simplest Way To Setup/Install The EFI Files To A Compatible Fat32 Drive!
+
+![image](https://github.com/dr-NHA/NHA_EfiGuard/assets/56168811/7b95306b-83aa-4723-ad75-955a8a782c12)
+
+![image](https://github.com/dr-NHA/NHA_EfiGuard/assets/56168811/e88a6878-ffcb-431d-aa9f-f6c960112a95)
+
+![image](https://github.com/dr-NHA/NHA_EfiGuard/assets/56168811/d3bf18f7-4aea-457b-8583-25f732eccd8b)
+
+Once Installed Restart Your Pc And Boot Into The Drive U Installed The EFI Into,
+Once Booted You Can Run The UI And See If The Backdoor Is Working (Itll Auto Check On "UI".exe Startup)
+If The Backdoor Is Working You Can Disable/Enable DSE And Also Use The Get g_CIOptions + Sytem Info Button To Get A Nice Output Like So:
+
+`
+Querying g_CiOptions Value...
+CI!g_CiOptions @ 0x14429418
+Success.g_CiOptions Value: 0x00000006
+
+SystemBootEnvironmentInformation:
+BootIdentifier: 3CC95424DB4E8D7EA6ED91EFA615
+FirmwareType: 0x00000002
+BootFlags: 0x0000000000000000
+SystemModuleInformation: Kernel: ntoskrnl.exe
+\SystemRoot\system32\ntoskrnl.exe
+SystemCodeIntegrityInformation: IntegrityOptions: 0x00000001
+0x00000001: CODEINTEGRITY_OPTION_ENABLED
+SystemKernelDebuggerInformation:
+KernelDebuggerEnabled: False
+KernelDebuggerNotPresent: True
+SystemKernelDebuggerInformationEx:
+DebuggerAllowed: False
+DebuggerEnabled: False
+DebuggerPresent: False
+SharedUserData->KdDebuggerEnabled: 0x00000000
+SystemKernelDebuggerFlags: 0x00000000
+SystemCodeIntegrityPolicyInformation:
+Options: 0x40000000
+HVCIOptions: 0x00000000
+SystemIsolatedUserModeInformation:
+SecureKernelRunning: False
+HvciEnabled: False
+HvciStrictMode: False
+DebugEnabled: False
+FirmwarePageProtection: True
+EncryptionKeyAvailable: False
+TrustletRunning: False
+HvciDisableAllowed: False
+`
+
 # Build
 Please Make A Folder In Your EDK2 Workspace At:
 "C:\edk2\NHAEFIPkg"
