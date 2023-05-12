@@ -5,6 +5,9 @@
 
 > This Is More Just For Ease Of Use And For Learning A Bit More C++ Stuff!
 
+> Note: I Did Try Exposing C++ Functions To C# But Found It Works Better To Just Run As A Extension/EXE Not Library!
+Maybe Someone Else Can Expose The Functions Correctly (Specifically Outputting Strings From C++ To C#) :)
+
 # Setup/Install
 The UI .Exe Contains An Auto Setup/Install Feature,
 This Is The Simplest Way To Setup/Install The EFI Files To A Compatible Fat32 Drive!
