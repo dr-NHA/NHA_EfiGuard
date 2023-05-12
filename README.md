@@ -6,6 +6,12 @@
 > This Is More Just For Ease Of Use And For Learning A Bit More C++ Stuff!
 
 # Build
+Please Make A Folder In Your EDK2 Workspace At:
+"C:\edk2\NHAEFIPkg"
+ In This Folder You Should Copy The Project Source Into,
+ It Should End Up Looking Somewhat Like The Image Below
+![image](https://github.com/dr-NHA/NHA_EfiGuard/assets/56168811/17a2a30e-3193-4a3a-86a4-6e24981e1375)
+
 [ORIGINAL](https://github.com/Mattiwatti/EfiGuard)
 
 Follow The Steps On How To Compile Here,
