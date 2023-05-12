@@ -19,7 +19,7 @@ Once Installed Restart Your Pc And Boot Into The Drive U Installed The EFI Into,
 Once Booted You Can Run The UI And See If The Backdoor Is Working (Itll Auto Check On "UI".exe Startup)
 If The Backdoor Is Working You Can Disable/Enable DSE And Also Use The Get g_CIOptions + Sytem Info Button To Get A Nice Output Like So:
 
-`
+``
 Querying g_CiOptions Value...
 CI!g_CiOptions @ 0x14429418
 Success.g_CiOptions Value: 0x00000006
@@ -53,7 +53,7 @@ FirmwarePageProtection: True
 EncryptionKeyAvailable: False
 TrustletRunning: False
 HvciDisableAllowed: False
-`
+``
 
 # Build
 Please Make A Folder In Your EDK2 Workspace At:
