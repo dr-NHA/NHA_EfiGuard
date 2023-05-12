@@ -1,4 +1,4 @@
-[submodule "NHADSE/Zydis"]
-	path = NHADSE/Zydis
+[submodule "NHA_EFI/Zydis"]
+	path = NHA_EFI/Zydis
 	url = https://github.com/zyantific/zydis.git
 	branch = master
